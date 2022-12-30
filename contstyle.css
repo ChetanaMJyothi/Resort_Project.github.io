@@ -1,0 +1,98 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Ubuntu', sans-serif;
+}
+.part1{
+    width: 100%;
+    text-align: center;
+    padding: 10rem 0;
+    background-image: url("./photo/cook.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 500px;
+}
+.mainPart{
+    height: 500px;
+    background-color: black;
+    opacity: 0.8;
+}
+.part1 h1{
+    text-shadow: 1px 1px 5px black;
+    font-weight: bolder;
+    color: white;
+}
+.part2{
+margin: 50px 0px;
+}
+.part2 .p2sub{
+width: 100%;
+display: flex;
+flex-direction: row;
+margin: auto;
+}
+.p2sub img{
+height: 15rem;
+width:15rem; 
+}
+.p2sub p{
+padding: 60px 0;
+}
+.job{
+width:78%;
+margin: 30px auto;
+}
+.job h1{
+
+text-align: center;}
+.job td, th{
+padding: 15px;
+}
+.job tr:nth-last-of-type(odd){
+    background-color: f6f6f5;
+}
+.job td a{
+text-decoration: none;
+    font-weight: bolder;
+    color: firebrick;
+}
+.job td a:hover{
+text-decoration: none;
+    font-weight: bolder;
+    color:darkred;
+}
+.magazine{
+display: flex;
+    flex-direction: row;
+    margin: 30px 0px;
+}
+.magazine img{
+width:400px;
+}
+.magazine div{
+margin: 10px;
+}
+@media screen and (max-width:600px){
+.part2 .p2sub{
+display: flex;
+flex-direction: column;
+}
+.p2sub img{
+height: 15rem;
+width:100%;
+    
+}
+.p2sub p{
+padding: 0px 0px;
+    }
+.job{
+width: 100%;
+}
+.job td, th{
+padding: 0px;
+}
+    .magazine img{
+        display: none;
+    }   
+    
+}

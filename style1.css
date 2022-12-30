@@ -1,0 +1,81 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+video{
+height: 650px;
+}
+.backVideo{
+position: relative;
+}
+.navele{
+    position: absolute;
+    top:0px;
+}
+.exp{
+display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.item{
+    width:50%;
+    border: 2px solid black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.item img{
+    width:50%;
+}
+.item dev{
+    width: 50%;
+    border: 2px solid black;
+}
+.exp .headexp{
+text-align: center;
+    margin-top: 20px;
+}
+.oversec{
+margin-top:20px; 
+    text-align: center;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    overflow: hidden;
+    left:50px;
+background: linear-gradient(rgb(0,0,0,0.1), rgb(0,72,72,0.5)), url("./photo/fest.jpg");  
+    background-size:cover;
+}
+.item1{
+        top:200px;
+}
+.item2{
+    left:430px;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,72,72,0.3)), url("./photo/longer.jpg");  
+    background-size:cover;
+}
+.item3{
+    left:800px;
+    top:200px;
+background: linear-gradient(rgb(0,0,0,0.5), rgb(0,72,72,0.8)), url("./photo/book4.jpg");  
+    background-size:cover;
+}
+.item4{
+    left:430px;
+    top:300px;
+    background: linear-gradient(rgb(0,0,0,0.8), rgb(0,72,72,0.8)), url("./photo/sand1.jpg"); 
+    background-size:cover;
+}
+.overlay:hover{
+    box-shadow: 2px 2px 20px 2px rgb(116,204,244);
+}
+
+
+
+
